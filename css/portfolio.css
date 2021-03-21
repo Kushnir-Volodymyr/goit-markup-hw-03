@@ -1,0 +1,220 @@
+/* CSS-переменные */
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --secondary-background-color: #f5f4fa;
+    --flex-basis-item: 3;
+    --card-set-gap: 30px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.post:not(:last-child) {
+    margin-right: 30px;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    background-color: #ffffff;
+}
+
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header .container {
+    align-items: baseline;
+    height: 80px;
+    display: flex;
+}
+
+.header .container {
+    align-items: baseline;
+    height: 80px;
+    display: flex;
+}
+
+nav {
+    margin-top: 24px;
+}
+
+.site-nav {
+    display: inline-flex;
+    margin-left: 93px;
+}
+
+.header-link {
+    display: inline-flex;
+    margin-left: auto;
+}
+
+.link {
+    padding: 30px 0px;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 50px;
+}
+
+/* Логотип */
+.logo{
+    padding: 30px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.link:focus {
+    color: var(--accent-color)
+}
+
+.logo span {
+    color: #2196F3;
+}
+
+/* Ссылки на наши контакты */
+.nav-link {
+  padding: 30px 0;
+  display: flex;
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* вид ссылок */
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: #212121;
+}
+
+
+/* Подсветка активной странички */
+.link.current{
+    color: #2196f3;
+}
+
+
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196f3;
+}
+.button{
+    cursor: pointer;
+}
+
+
+.buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: var(--cursor-button);
+  }
+
+  .button:hover,
+  .button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+  }
+
+.project {
+    display: none;
+}
+
+
+/* PAGE */
+.page-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* CONTAINER */
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CARD SET */
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.card-set > .item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+/* CARD */
+.card {
+  box-shadow: var(--card-shadow);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
