@@ -14,21 +14,29 @@
 </head>
 <body>
    <!--Шапка-->
-   <header class="header">
-     <div class="container">
-        <nav> 
-            <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-            <ul class="site-nav">
-                <li class="menu-item"><a class="link menu-link" href="./index.html">Студия</a></li>
-                <li class="menu-item"><a class="link menu-link current" href="./portfolio.html">Портфолио</a></li>
-                <li class="menu-item"><a class="link menu-link" href="">Контакты</a></li>
-            </ul>
-        </nav> 
-            <ul class="header-link">
-                <li class="menu-item"><a  href="mailto:info@devstudio.com"  class="nav-link">info@devstudio.com</a></li>
-                <li class="menu-item"><a  href="tel:+380961111111" class="nav-link">+380961111111</a></li>
-            </ul>
-     </div>
+<header class="header">
+  <div class="container">
+    <nav class="link-heading">
+      <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+      <ul class="site-nav">
+        <li class="menu-item"><a class="link" href="./index.html">Студия</a></li>
+        <li class="menu-item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
+        <li class="menu-item"><a class="link" href="" class="link">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <ul class="header-link">
+      <li class="menu-item"><a href="mailto:info@devstudio.com" class="nav-link mail">
+        <svg class="icon-envelope">
+          <use href="./images/sprite.svg#icon-envelope"></use>
+        </svg>
+        info@devstudio.com</a></li>
+        <li class="menu-item"><a href="tel:+380961111111" class="nav-link phone">
+          <svg class="icon-smartphone">
+            <use href="./images/sprite.svg#icon-smartphone"></use>
+          </svg>+380961111111</a></li>
+        </ul>
+      </div>
     </header>
 <main class="container">
 <!-- Портфолио -->
@@ -46,6 +54,7 @@
 <h2 class="project">Проекты</h2>
     <ul class="project-set">
         <li class="project-item">
+          <a href="" >
             <article class="card">
                 <div class="card-content">
                     <img src="./images/images-portfolio/img-1.jpg" width="370" alt="Веб-сайт" >
@@ -55,21 +64,25 @@
                     <p class="text">Веб-сайт</p>
                  </div>
             </article>
+          </a>
         </li>
 
         <li class="project-item">
+          <a href="">
             <article class="card">
-                <div class="card-content">
-            <img src="./images/images-portfolio/img-2.jpg" width="370" alt="Дизайн" >
-        </div>
-        <div class="card-text"> 
-            <h3 class="heading-text">Постер New Orlean vs Golden Star</h3>
-            <p class="text">Дизайн</p>
-                </div>
-            </article>
+              <div class="card-content">
+                <img src="./images/images-portfolio/img-2.jpg" width="370" alt="Дизайн" >
+              </div>
+              <div class="card-text"> 
+                <h3 class="heading-text">Постер New Orlean vs Golden Star</h3>
+                <p class="text">Дизайн</p>
+              </div>
+          </article>
+          </a>
         </li>
 
         <li class="project-item">
+          <a href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-3.jpg" width="370" alt="Приложение" >
@@ -79,9 +92,11 @@
             <p class="text">Приложение</p>
                 </div>
             </article>
+            </a>
         </li>
 
         <li class="project-item">
+          <a href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-4.jpg" width="370" alt="Наушники" >
@@ -91,9 +106,11 @@
             <p class="text">Маркетинг</p>
                 </div>
             </article>
+            </a>
         </li>
 
         <li class="project-item">
+          <a href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-5.jpg" width="370" alt="Боксы" >
@@ -103,9 +120,11 @@
             <p class="text">Приложение</p>
                 </div>
             </article>
+            </a>
         </li>
 
         <li class="project-item">
+          <a  href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-6.jpg" width="370" alt="Монитор" >
@@ -115,9 +134,11 @@
             <p class="text">Веб-сайт</p>
                 </div>
             </article>
+            </a>
         </li>
 
         <li class="project-item">
+          <a href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-7.jpg" width="370" alt="Книга" >
@@ -127,9 +148,11 @@
             <p class="text">Дизайн</p>
                 </div>
             </article>
+            </a>
         </li>
 
         <li class="project-item">
+          <a href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-8.jpg" width="370" alt="ЛАБ" >
@@ -139,9 +162,11 @@
             <p class="text">Маркетинг</p>
                 </div>
             </article>
+            </a>
         </li>
         
         <li class="project-item">
+          <a  href="">
             <article class="card">
                 <div class="card-content">
             <img src="./images/images-portfolio/img-9.jpg" width="370" alt="Растущий бизнес" >
@@ -151,20 +176,79 @@
             <p class="text">Приложение</p>
                 </div>
             </article>
+            </a>
         </li>
     </ul>
 </section>
 </main>
-     <!--Подвал-->
-     <footer class="footer"> 
-        <address class="container"> 
-            <a href="./index.html" class="logo"><span>Web</span><span class="studio">Studio</span></a>
-        <ul class="address-link">
-            <li class="address-item"><a class="maps" href="https://goo.gl/maps/kpo2gFMixc3sEq3g6"  target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="address-item"><a href="mailto:info@example.com" class="nav-link">info@example.com</a></li>
-            <li class="address-item"><a href="tel:+380991111111" class="nav-link">+380991111111</a></li>
-        </ul> 
-        </address>    
-    </footer>
+
+<!--Подвал-->
+<footer class="footer">
+  <div class="container set">
+    <div class="footer-box">
+      <a href="./index.html" class="logo footer-logo"><span>Web</span><span class="studio">Studio</span></a>
+        <address class="footer-fix">
+          <ul class="footer-address-link">
+    
+            <li class="list-footer-item"><a class="maps" href="https://goo.gl/maps/
+              kpo2gFMixc3sEq3g6"
+              target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+    
+            <li class="list-footer-item">
+              <a href="mailto:info@example.com"
+                class="footer-link">info@example.com
+              </a>
+            </li>
+              
+            <li class="list-footer-item">
+              <a href="tel:+380991111111" class="footer-link">
+                  +380991111111
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+    
+        <div class="join-position">
+          <h2 class="join">Присоединяйтесь</h2>
+          <ul class="footer-list social-icons">
+            <li class="footer-icons-item">
+              <a href="" class="social-icon-link" target="_blank" rel="noreferrer noopener">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+
+            </li>
+
+            <li class="footer-icons-item">
+              <a href="" class="social-icon-link" target="_blank" rel="noreferrer noopener">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+    
+
+            <li class="footer-icons-item">
+              <a href="" class="social-icon-link" target="_blank" rel="noreferrer noopener">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+    
+
+            <li class="footer-icons-item">
+              <a href="" class="social-icon-link" target="_blank" rel="noreferrer noopener">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
 </body>
 </html>
